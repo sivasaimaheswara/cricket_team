@@ -12,3 +12,13 @@ Content-Type: application/json
 ###
 
 GET http://localhost:3002/players/1/
+### 
+
+PUT http://localhost:3002/players/1/
+Content-Type: application/json
+
+{
+  "playerName": "Maneesh",
+  "jerseyNumber": 54,
+  "role": "All-rounder"
+}
